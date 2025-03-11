@@ -1,0 +1,191 @@
+# Creado por https://www.toptal.com/developers/gitignore/api/kicad,c++,git,windows,visualstudiocode,linux,c
+# Editar en https://www.toptal.com/developers/gitignore?templates=kicad,c++,git,windows,visualstudiocode,linux,c
+
+### C ###
+# Prerrequisitos
+*.d
+
+# Archivos de objetos
+*.o
+*.ko
+*.obj
+*.duende
+
+# Salida del enlazador
+*.semilla
+*.mapa
+*.exp
+
+# Encabezados precompilados
+*.gch
+*.pch
+
+# Bibliotecas
+*.lib
+*.a
+*.la
+*.lo
+
+# Objetos compartidos (incluidas las DLL de Windows)
+*.dll
+*.entonces
+*.entonces.*
+*.dylib
+
+# Ejecutables
+*.exe
+*.afuera
+*.aplicación
+*.i*86
+*.x86_64
+*.maleficio
+
+# Archivos de depuración
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+Resultados de la compilación del módulo del núcleo
+*.mod*
+*.cmd
+.tmp_versiones/
+módulos.orden
+Módulo.symvers
+Archivo mk.old
+dkms.conf
+
+### C++ ###
+# Prerrequisitos
+
+# Archivos de objetos compilados
+*.slo
+
+# Encabezados precompilados
+
+# Bibliotecas dinámicas compiladas
+
+# Archivos de módulo Fortran
+*.mod
+*.smod
+
+# Bibliotecas estáticas compiladas
+*.lai
+
+# Ejecutables
+
+### Git ###
+# Creado por git para copias de seguridad. Para deshabilitar las copias de seguridad en Git:
+# $ git config --global mergetool.keepBackup falso
+*.orig
+
+# Creado por git al usar herramientas de fusión para conflictos
+*.RESPALDO.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTO.*
+*_COPIA DE SEGURIDAD_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTO_*.txt
+
+### KiCad ###
+# Para PCB diseñados con KiCad: https://www.kicad.org/
+# Documentación de formato: https://kicad.org/help/file-formats/
+
+# Archivos temporales
+*.000
+*.bak
+*.atrás
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-copias de seguridad
+*.kicad_prl
+*.sch-bak
+*~
+_guardado automático-*
+*.tmp
+*-guardar.pro
+*-guardar.kicad_pcb
+caché de información fp
+
+# Archivos de lista de conexiones (exportados desde Eeschema)
+*.neto
+
+# Archivos de enrutador automático (exportados desde Pcbnew)
+*.dsn
+*.ses
+
+# Archivos BOM exportados
+*.xml
+*.csv
+
+### Parche KiCad ###
+rescate-copia de seguridad/
+
+*.tsv
+nacido/
+
+# Salida de exportación de Gerber
+afuera/
+
+### Linux ###
+
+# archivos temporales que se pueden crear si un proceso aún tiene abierto el identificador de un archivo eliminado
+.fusible_oculto*
+
+# Preferencias del directorio de KDE
+.directorio
+
+# Carpeta de basura de Linux que puede aparecer en cualquier partición o disco
+.Basura-*
+
+Los archivos .nfs se crean cuando se elimina un archivo abierto pero aún se accede a él
+.nfs*
+
+### Código de Visual Studio ###
+.vscode/*
+!.vscode/configuraciones.json
+!.vscode/tareas.json
+!.vscode/launch.json
+!.vscode/extensiones.json
+!.vscode/*.fragmentos de código
+
+# Historial local para Visual Studio Code
+.historia/
+
+# Extensiones de código de Visual Studio creadas
+*.vsix
+
+### Parche de VisualStudioCode ###
+# Ignorar todo el historial local de archivos
+.historia
+.ionuro
+
+### Ventanas ###
+# Archivos de caché de miniaturas de Windows
+Pulgares.db
+Thumbs.db: encriptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Archivo de volcado
+*.dump de pila
+
+# Archivo de configuración de carpeta
+[Dd]esktop.ini
+
+# Papelera de reciclaje utilizada en recursos compartidos de archivos
+$PAPELETO DE RECICLAJE/
+
+# Archivos del instalador de Windows
+*.taxi
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Atajos de Windows
+*.lnk
+
+# Fin de https://www.toptal.com/developers/gitignore/api/kicad,c++,git,windows,visualstudiocode,linux,c
